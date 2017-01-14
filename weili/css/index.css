@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 209908 */
+    src: url('../iconfont/iconfont.eot');
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../iconfont/iconfont.woff') format('woff'),
+    url('../iconfont/iconfont.ttf') format('truetype'),
+    url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: "iconfont";
+
+}
+.partner-logo{
+    height: 112px;
+    font-size: 50px;
+    line-height: 112px;
+}
+.html5:before{
+    content: '\e6a3';
+    line-height: 112px;
+}
+.css3:before{
+    content: '\e68c';
+    line-height: 112px;
+}
+.bootstrap:before{
+    content: '\e602';
+    line-height: 112px;
+}
+.js:before{
+    content: '\e612';
+    line-height: 112px;
+}
+.jq:before{
+    content: '\e600';
+    line-height: 112px;
+}
+.ajax:before{
+    content: '\e622';
+    line-height: 112px;
+}
+.li_bulb:before {
+    content: "\e63c";
+}
+.li_params:before {
+    content: "\e650";
+}
+.li_heart:before {
+    content: "\e613";
+}
