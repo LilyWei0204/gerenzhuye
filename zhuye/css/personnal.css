@@ -44,6 +44,15 @@
   top:65%;
   color:#333;
 }
+.nav_l{
+  display:none;
+}
+.nav_s{
+  display:block;
+}
+.slide_nav{
+  display: none;
+}
 .container > .content-section>.row > .col-s-1 {
   float: left;
   width: 8.33333333%;
@@ -172,6 +181,15 @@
   .left .me .me-img,.left .me .me-word{
     height:100%;
     width:50%;
+  }
+  .nav_l{
+    display:block;
+  }
+  .nav_s{
+    display:none;
+  }
+  .site-header{
+    padding: 35px 0;
   }
   .container >.content-section> .row > .col-m-1 {
     float: left;

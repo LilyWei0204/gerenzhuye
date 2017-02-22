@@ -91,11 +91,143 @@
 }
 
 /*头部开始*/
+
+/*头部响应*/
+.nav_s{
+    width:100%;
+    height:44px;
+    background: #000;
+    opacity:0.8;
+    position: relative;
+    z-index: 2000;
+}
+.slide_nav{
+    display: none;
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:199;
+    background: #000;
+}
+.slide_nav .close{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left:20px;
+    cursor: pointer;
+}
+.slide_nav .apple{
+    position: absolute;
+    top: 10px;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.slide_nav_con{
+    width:100%;
+    position: absolute;
+    top:44px;
+    overflow: hidden;
+    padding:0 50px;
+    /*display: none;*/
+}
+.slide_nav_con li{
+    width:100%;
+}
+.slide_nav_con li a,.slide_nav_con li span{
+    display: block;
+    width:100%;
+    border-bottom: 1px solid #333;
+    padding:10px 0;
+    color: #f0f0f0;
+}
+.slide_nav_con li a:hover{
+    opacity:0.8;
+}
+.nav_s>.lnav{
+    max-width:1000px;
+    height:44px;
+    text-align: justify;
+    margin:0 auto;
+    display: none;
+}
+.lnav>li{
+    width:11%;
+    height:100%;
+    float: left;
+    line-height: 44px;
+    position: relative;
+}
+.lnav>li>a{
+    display: block;
+    color: #fff;
+    font-size:16px;
+    position: absolute;
+    top:0;bottom:0;margin:auto;
+    left:21%;
+}
+.lnav>li:first-child>a{
+    left:0;
+}
+
+.bag{
+    float: left;
+    width:38px;
+    height:44px;
+    background: url("../img/bag.svg") no-repeat center center;
+}
+.snav{
+    margin:0;
+    width:100%;
+    height:44px;
+    position: relative;
+    background: #000;
+    opacity:0.8;
+    z-index: 10;
+    display: block;
+}
+.snav span{
+    display: block;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.dnav{
+    width:48px;
+    height:48px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    left:20px;
+    cursor: pointer;
+}
+.apple{
+    left:0;
+    right:0;
+    margin:auto;
+}
+.bag{
+    right:20px;
+}
+nav li a:hover,nav li span:hover{
+    opacity:0.8;
+}
+
+
+
+
+/*头部响应结束*/
+
+
 .site-header {
     position: fixed;
     top: 0;
     display: block;
-    padding: 35px 0;
+    padding:0;
     width: 100%;
     background-color: white;
     border-bottom: 2px solid #f3f3f3;
@@ -423,7 +555,7 @@
     background:url(../img/icon_03.png) no-repeat;
     position:fixed;
     right:50px;
-    bottom:200px;
+    bottom:100px;
     cursor:pointer;
     opacity:0.6;
     transition:opacity 1s ease;

@@ -18,6 +18,20 @@ $(function(){
         $(".toggle_left").fadeOut();
         $(".toggle_right").fadeIn();
     })*/
+
+    // 头部菜单
+    $(".dnav").click(function(){
+        $(".slide_nav").css({display:"block"}).siblings().css({display:"none"});
+    });
+    $(".slide_nav_con").click(function () {
+        $(".slide_nav").css({display:"none"}).siblings().css({display:"block"});
+    })
+    $(".close").click(function(){
+        $(".slide_nav").css({display:"none"}).siblings().css({display:"block"});
+    });
+
+
+
     $(".work_cover span").click(function(){
         var index=$(this).index(".work_cover span");
         $(".big_cover").eq(index).fadeIn();
