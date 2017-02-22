@@ -39,8 +39,8 @@
       <file leaf-file-name="templatemo_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/templatemo_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="1393" column="21" lean-forward="true" selection-start-line="1393" selection-start-column="21" selection-end-line="1393" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="1400" column="0" lean-forward="true" selection-start-line="1400" selection-start-column="0" selection-end-line="1400" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,12 +130,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487087337652</updated>
-      <workItem from="1487087341644" duration="7828000" />
+      <workItem from="1487087341644" duration="8505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7828000" />
+    <option name="totallyTimeSpent" value="8505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="3" width="1366" height="725" extended-state="0" />
@@ -235,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1393" column="21" lean-forward="true" selection-start-line="1393" selection-start-column="21" selection-end-line="1393" selection-end-column="21" />
+        <state relative-caret-position="390">
+          <caret line="1400" column="0" lean-forward="true" selection-start-line="1400" selection-start-column="0" selection-end-line="1400" selection-end-column="0" />
           <folding />
         </state>
       </provider>
